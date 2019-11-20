@@ -1,4 +1,4 @@
-# Campsite Check-in Kata
+# Campsite Check-in Kata :tent:
 
 You have been tasked with building a campsite check-in service for when people are checking in to a campsite. This service needs to produce a report such as the below, which can then be printed:
 
