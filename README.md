@@ -110,7 +110,7 @@ Nothing to report
 In Java the interface might look something like the below:
 
 ```java
-String getWildlifeReportFor(Date dateOfStay);
+String getWildlifeReportFor(Instant dateOfStay);
 ```
 
 ## Rules Service
@@ -161,7 +161,7 @@ Assume for all other cases it will be able to return a forecast.
 In Java, the interface might look something like the below:
 
 ```java
-String getWeatherFor(Date from, Date to);
+String getWeatherFor(Instant from, Instant to);
 ```
 
 ## Costs Service
