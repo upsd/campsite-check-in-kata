@@ -98,7 +98,7 @@ Collaborating services: none.
 This service is responsible for reporting any wildlife seen within a given period of time. It will return something like the below:
 
 ```
-* Bear spotted 3 days ago
+* 01/03/2019 - Bear spotted
 ```
 
 If there is nothing to report, it will return the below instead:
