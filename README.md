@@ -175,6 +175,14 @@ This service is responsible for reporting any potential costs that might be incu
 * Wood - £5 for 10 logs
 ```
 
+In Java, the interface might look something like the below:
+
+```java
+String getCostsForCampsite();
+```
+
 ## Let's Code
 
 You have read the briefing (I hope), now it is time to go and develop a solution. You might be wondering why everything returns strings. Well we are camping so going primitive seems appropriate :stuck_out_tongue::drum:
+
+Also assume for now that the services only work for a single campsite, hence why no campsite id's are passed around.
