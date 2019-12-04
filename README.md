@@ -15,7 +15,7 @@ Rules:
 * No food should be left unattended at site
 --
 Weather:
-* 1st day - Rain
+* Day 1 - Rain
 --
 Potential Costs:
 * Shower - £1 for 5 minutes
@@ -57,7 +57,7 @@ Rules:
 * No food should be left unattended at site
 --
 Weather:
-* 1st day - Rain
+* Day 1 - Rain
 --
 Potential Costs:
 * Shower - £1 for 5 minutes
@@ -78,7 +78,7 @@ Rules:
 * No food should be left unattended at site
 --
 Weather:
-* 1st day - Rain
+* Day 1 - Rain
 --
 Potential Costs:
 * Shower - £1 for 5 minutes
