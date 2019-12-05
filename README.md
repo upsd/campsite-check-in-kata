@@ -191,3 +191,52 @@ String getCostsForCampsite();
 You have read the briefing (I hope), now it is time to go and develop a solution. You might be wondering why everything returns strings. Well we are camping so going primitive seems appropriate :stuck_out_tongue::drum:
 
 Also assume for now that the services only work for a single campsite, hence why no campsite id's are passed around.
+
+### Examples
+
+**Given** today's date is the `01/02/2019` 
+
+**And** there was a bear spotted on the `20/01/2019`
+
+**And** the rules stipulate that `no food should be left unattended at site`
+
+**And** the weather for both the `01/02/2019` and the `02/02/2019` is `mostly cloudy`
+
+**And** the potential costs incurred during the camper's stay are:
+
+```
+* Shower - £1 for 5 minutes
+* Wood - £5 for 10 logs
+```
+
+**When** a camper checks in with the following details:
+
+```
+Name of camper: Avid Camper
+Car Registration (if applicable): REG 123
+Check-out: 02/02/2019
+```
+
+**Then** the campsite check-in service should produce the following report:
+
+```
+Check-in for: Avid Camper
+Car Registration: REG 123
+Check-out: 02/02/2019
+---
+INFORMATION:
+---
+Wildlife:
+* Bear spotted 12 days ago
+--
+Rules:
+* No food should be left unattended at site
+--
+Weather:
+* Day 1 - mostly cloudy
+* Day 2 - mostly cloudy
+--
+Potential Costs:
+* Shower - £1 for 5 minutes
+* Wood - £5 for 10 logs
+```
