@@ -5,6 +5,7 @@ You have been tasked with building a campsite check-in service for when people a
 ```
 Check-in for: Avid Camper
 Car Registration: REG 123
+Check-out: 02/02/2019
 ---
 INFORMATION:
 ---
@@ -33,6 +34,7 @@ This service will receive the following as input:
 ```
 Name of camper: <name>
 Car Registration (if applicable): <registration>
+Check-out: <date>
 ```
 
 Adding some real data to the above template looks like the below:
@@ -40,6 +42,7 @@ Adding some real data to the above template looks like the below:
 ```
 Name of camper: Some Camper
 Car Registration (if applicable): REG 123
+Check-out: 02/02/2019
 ```
 
 The service will take all of the information from the collaborating services and then output something like:
@@ -47,6 +50,7 @@ The service will take all of the information from the collaborating services and
 ```
 Check-in for: Avid Camper
 Car Registration: REG 123
+Check-out: 02/02/2019
 ---
 INFORMATION:
 ---
@@ -68,6 +72,7 @@ If the camper has not driven, then the output would look like the below:
 
 ```
 Check-in for: Avid Camper
+Check-out: 02/02/2019
 ---
 INFORMATION:
 ---
